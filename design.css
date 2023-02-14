@@ -29,8 +29,8 @@ img{
     padding-bottom: 56px;
     padding-left: 40px;
     padding-right: 40px;
-    border: 1px solid #bfc5c4;
-    border-radius: 5px;
+    border: 1px solid #d5d7d7;
+    border-radius: 7px;
     
 
 }
@@ -72,13 +72,23 @@ img{
 }
 
 .email{
-    width: 380px;
+    width: 350px;
     height: 50px;
     margin-top: 18px;
     position: relative;
     border: 1px solid #bfc5c4;
     border-radius: 5px;
-   
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+
+
+
+.email:focus{
+    border: 1px solid #4285f4;
+    outline: none;
 }
 
 .label{
@@ -107,8 +117,17 @@ img{
 
 }
 
+.input-not-active{
+    top: 75px;
+    font-size: 12px;
+    color: #9f9f9f;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .border{
-    border: 1px solid #4285f4;
+    border: 1px solid #9f9f9f;
 }
 
 
@@ -124,7 +143,7 @@ img{
 
 #home3{
     margin-top: 50px;
-    width: 390px;
+    width: 370px;
 }
 
 #text3{
@@ -171,11 +190,12 @@ img{
     background-color: transparent;
     border: 0;
     cursor: pointer;
-    left: 0;
+    left: 9px;
     bottom: 0;
     position: absolute;
     padding-left: 0px;
     padding-right: 5px;
+   
     
 
 }
